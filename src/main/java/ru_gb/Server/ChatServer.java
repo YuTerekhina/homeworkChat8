@@ -30,7 +30,6 @@ public class ChatServer {
         }
     }
 
-
     public AuthService getAuthService() {
         return authService;
     }
