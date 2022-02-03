@@ -27,6 +27,7 @@ public class ClientController {
     private TextField messageField;
 
     final ChatClient client;
+
     public ClientController() {
         client = new ChatClient(this);
     }
@@ -39,6 +40,7 @@ public class ClientController {
             messageField.requestFocus();
         }
     }
+
 
     public void addMessage(String message) {
         messageArea.appendText(message + "\n");

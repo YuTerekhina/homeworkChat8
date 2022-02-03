@@ -29,7 +29,6 @@
                 <Button text="check" onAction="#onClickSendButton" defaultButton="true"/>
             </HBox>
         </VBox>
-
 <ListView fx:id="clientList" minWidth="200" maxWidth="200" onMouseClicked="#selectClient"/>
 
     </HBox>

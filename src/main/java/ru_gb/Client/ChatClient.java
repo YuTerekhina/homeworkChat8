@@ -2,12 +2,10 @@ package ru_gb.Client;
 
 import ru_gb.ClientController;
 import ru_gb.Command;
-
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
-
 import static ru_gb.Command.*;
 
 public class ChatClient {

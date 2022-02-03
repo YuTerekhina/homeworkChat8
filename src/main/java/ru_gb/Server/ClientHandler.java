@@ -1,14 +1,12 @@
 package ru_gb.Server;
 
 import ru_gb.Command;
-
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import static ru_gb.Command.*;
 
 public class ClientHandler {
