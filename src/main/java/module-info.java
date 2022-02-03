@@ -1,8 +1,8 @@
-module ru.knyazevvb.networkchat {
+module ru_gb {
     requires javafx.controls;
     requires javafx.fxml;
 
 
-    opens ru.knyazevvb.networkchat to javafx.fxml;
-    exports ru.knyazevvb.networkchat;
+    opens ru_gb to javafx.fxml;
+    exports ru_gb;
 }

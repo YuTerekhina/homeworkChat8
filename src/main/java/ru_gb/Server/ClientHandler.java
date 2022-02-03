@@ -6,6 +6,8 @@ import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import static ru_gb.Command.*;
 
@@ -157,9 +159,11 @@ public class ClientHandler {
 
 
     public void sendMessage(String message) {
-        try {
+        Date dateNow = new Date();
+        SimpleDateFormat formatDate = new SimpleDateFormat("dd.MM.yyyy hh:mm");
 
-            out.writeUTF(getNick() + ": " + message);
+        try {
+            out.writeUTF(formatDate.format(dateNow) + " " + getNick() + ": " + message);
 
         } catch (IOException e) {
             e.printStackTrace();
