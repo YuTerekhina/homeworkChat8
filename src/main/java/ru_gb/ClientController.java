@@ -41,7 +41,6 @@ public class ClientController {
         }
     }
 
-
     public void addMessage(String message) {
         messageArea.appendText(message + "\n");
     }

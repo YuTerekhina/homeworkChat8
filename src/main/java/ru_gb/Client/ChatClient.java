@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.net.Socket;
 import static ru_gb.Command.*;
 
+
 public class ChatClient {
     private Socket socket;
     private DataInputStream in;
