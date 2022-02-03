@@ -1,5 +1,4 @@
 package ru_gb.Server;
-
 import java.util.*;
 
 public class InMemoryAuthService implements AuthService {

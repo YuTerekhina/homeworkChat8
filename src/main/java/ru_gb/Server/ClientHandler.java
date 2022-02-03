@@ -18,7 +18,6 @@ public class ClientHandler {
     private final DataInputStream in;
     private final DataOutputStream out;
     private boolean isNotDisconnected;
-
     private String nick;
 
     public ClientHandler(Socket socket, ChatServer chatServer) {

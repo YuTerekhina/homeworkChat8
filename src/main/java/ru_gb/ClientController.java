@@ -10,7 +10,6 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 import ru_gb.Client.ChatClient;
 
-
 public class ClientController {
     @FXML
     private HBox loginBox;
@@ -28,7 +27,6 @@ public class ClientController {
     private TextField messageField;
 
     final ChatClient client;
-
     public ClientController() {
         client = new ChatClient(this);
     }

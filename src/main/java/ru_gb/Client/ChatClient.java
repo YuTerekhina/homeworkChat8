@@ -16,7 +16,6 @@ public class ChatClient {
     private DataOutputStream out;
     private ClientController controller;
 
-
     public ChatClient(ClientController controller) {
         this.controller = controller;
         openConnection();
